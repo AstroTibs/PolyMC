@@ -448,8 +448,11 @@ void LauncherPage::loadSettings()
         ui->themeComboBoxCat->addItem("Jinx");
         ui->themeComboBoxCat->addItem("Floppa");
         ui->themeComboBoxCat->addItem("Manul");
+        ui->themeComboBoxCat->addItem("Cactus Willie");
 
-        if(currentCatStyle == "Manul")
+        if(currentCatStyle == "Cactus Willie")
+            ui->themeComboBoxCat->setCurrentIndex(4);
+        else if(currentCatStyle == "Manul")
             ui->themeComboBoxCat->setCurrentIndex(3);
         else if(currentCatStyle == "Floppa")
             ui->themeComboBoxCat->setCurrentIndex(2);

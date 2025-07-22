@@ -13,5 +13,6 @@
         <file alias="manulCat">manulbg.png</file>
         <file alias="manulCatmas">manulxmas.png</file>
         <file alias="manulCattiversary">manulversary.png</file>
+        <file alias="cactusWillieCat">cactuswillie.png</file>
     </qresource>
 </RCC>

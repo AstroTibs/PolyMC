@@ -1640,6 +1640,8 @@ void MainWindow::setCatBackground(bool enabled)
             cat = "floppa";
         else if(catStyleOpt == "Jinx")
             cat = "jinx";
+        else if(catStyleOpt == "Cactus Willie")
+            cat = "cactuswillie";
 
         if(christmasStart <= now || now < christmasEnd) {
             cat += "Catmas";
